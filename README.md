@@ -42,7 +42,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.5-b02, mixed mode)
 You can download a preview version here: https://jdk8.java.net/
 
 ### Compile/Run the examples
-Using maven:
+**Using Maven:**
 
 $ mvn compile
 
@@ -50,5 +50,29 @@ $ cd target/classes
 
 $ java lambdasinaction/chap1/FilteringApples
 
-
 Alternatively you can compile the files manually inside the directory src/main/java
+
+
+**Using Maven in Eclipse:**
+
+To import the lambdasinaction Maven project into Eclipse, follow these steps:
+
+1. Clone this repository with, e.g.,
+
+        git clone git@github.com:java8/Java8InAction.git
+
+2. Open Eclipse and from the File menu choose Import.
+
+3. In the dialog box that appears, there should be a folder called Maven.  (If not,
+install the Eclipse Maven extension.)
+
+4. Expand the view of the Maven folder and select Existing Maven Projects.
+
+5. Navigate in the browser to the location where you cloned the Java8InAction.git
+repository and click OK.  Under projects, you should see a check box next to
+/pom.xml.  Make sure this checkbox is checked and select Finish.
+
+(These instructions for importing the lambdasinaction Maven project into Eclipse
+were tested with Luna Service Release 1 (4.4.1).) 
+
+
