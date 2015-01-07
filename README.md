@@ -72,6 +72,18 @@ install the Eclipse Maven extension.)
 repository and click OK.  Under projects, you should see a check box next to
 /pom.xml.  Make sure this checkbox is checked and select Finish.
 
+6. Compile and run the code: in the package explorer, expand the view of the
+package called lambdasinaction.chap1 and double click on the
+FilteringApples.java file, then click the green run arrow. The following output
+should appear in the console window:
+
+
+        [Apple{color='green', weight=80}, Apple{color='green', weight=155}]
+        [Apple{color='green', weight=155}]
+        [Apple{color='green', weight=80}, Apple{color='green', weight=155}]
+        [Apple{color='green', weight=155}]
+        []
+
 (These instructions for importing the lambdasinaction Maven project into Eclipse
 were tested with Luna Service Release 1 (4.4.1).) 
 
